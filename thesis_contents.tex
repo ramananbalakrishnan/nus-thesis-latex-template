@@ -1,0 +1,94 @@
+\documentclass{nusthesis}
+
+% --------------------------------------------------
+% Basic information
+% --------------------------------------------------
+\title{Quad Polarization Wideband Sinuous Antenna Elements and Arrays}
+\author{Ramanan Balakrishnan}
+\qualification{B.Eng. (Hons.), NUS}
+
+\degree{Master of Engineering}
+\university{National University of Singapore}
+\department{Department of Electrical and \\Computer Engineering}
+\submityear{2014}
+
+\date{\today}
+
+\begin{document}
+
+% --------------------------------------------------
+% Build the cover page, title page, declaration,
+% dedication and acknowledgement pages
+% --------------------------------------------------
+\frontmatter
+\maketitle
+\declarationpage{}
+
+\newpage
+\thispagestyle{empty}
+\begin{flalign*}
+&&\nabla \cdot \mathbf{E} &= \frac{\rho}{\epsilon_0 \nonumber}\\
+&&\nabla \cdot \mathbf{B} &= 0 \nonumber \\
+&&\nabla \times \mathbf{E} &= - \frac{\partial B}{\partial t} \nonumber \\
+&&\nabla \times \mathbf{B} &= \mu_{0}\mathbf{J} + \mu_{0}\epsilon_{0}\frac{\partial E}{\partial t} \nonumber
+\end{flalign*}
+\hfill \emph{and there was light}
+
+\newpage
+\acknowledgment{
+Let's thank some people here.
+}
+
+% --------------------------------------------------
+% Table of contents, abstract,
+% lists of tables, figures and symbols
+% --------------------------------------------------
+\tableofcontents
+\newpage
+\abstract{
+A section to summarize the main contributions of this thesis.
+}
+
+\listoftables
+\listoffigures
+\listofsymbolsnabbrev
+
+% --------------------------------------------------
+% Main content of thesis organized into chapters
+% --------------------------------------------------
+\mainmatter
+
+\chapter{The basics}
+\label{chap:introduction}
+
+\section{A simple section}
+\label{sec:asimplesection}
+
+\subsection{A sub-section}
+\label{ssec:asubsection}
+
+\chapter{Figures, sub-figures and more}
+\label{chap:figures}
+
+\chapter{Let's talk tables}
+\label{chap:tables}
+
+\chapter{Equations and code}
+\label{chap:equationsandcode}
+
+% --------------------------------------------------
+% End of chapters
+% --------------------------------------------------
+% To add a symbol (no checking of repeated symbol)
+\addsymbol{$\lambda$}{wavelength}
+\addsymbol{$\epsilon_r$}{relative dielectric constant}
+\addsymbol{$k$}{wave number, defined as $2\pi/\lambda$}
+
+% To add an abbreviation, which will be named at least once in the full
+\addabbrev{IEEE}{Institute of Electrical and Electronics Engineers}
+\addabbrev{PASS}{Phased Array System Simulator}
+\addabbrev{RF}{Radio Frequency}
+
+\backmatter
+
+\end{document}
