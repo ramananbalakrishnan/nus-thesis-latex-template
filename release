@@ -1,0 +1,6 @@
+#!/bin/sh
+mkdir nus-thesis-latex-template
+mkdir nus-thesis-latex-template/build
+cp *.tex ./make *.bib *.cls ./nus-thesis-latex-template
+tar cvzf nus-thesis-latex-template.tar.gz nus-thesis-latex-template
+rm -rf nus-thesis-latex-template/
