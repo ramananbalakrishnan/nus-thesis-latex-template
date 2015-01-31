@@ -10,4 +10,3 @@ cp build/*.pdf ./
 cp build/*.bib ./
 cp build/*.cls ./
 cp build/*.bst ./
-mv build/*.md ./

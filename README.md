@@ -10,11 +10,19 @@ A LaTeX template following NUS specifications for Masters/ PhD theses.
 $ wget https://raw.githubusercontent.com/ramananbalakrishnan/nus-thesis-latex-template/master/nus-thesis-latex-template.tar.gz
 $ tar xvzf nus-thesis-latex-template.tar.gz
 $ cd nus-thesis-latex-template
+# <edit thesis_contents.tex to your liking>
 $ ./make
+# <the ./make command can be pass a single argument denoting the filename, if
+different from thesis_contents.tex>
 ```
 
 ### on Windows
-Install TexLive, then use pdflatex / bibtex to build the files
+> Install TexLive
+
+> Edit the thesis_contents.tex file
+
+> Use pdflatex / bibtex to build the files
+
 Recommended setup: TexLive + Texworks
 
 ## Author
