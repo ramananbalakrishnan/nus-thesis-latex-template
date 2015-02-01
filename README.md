@@ -11,15 +11,16 @@ $ wget https://raw.githubusercontent.com/ramananbalakrishnan/nus-thesis-latex-te
 $ tar xvzf nus-thesis-latex-template.tar.gz
 $ cd nus-thesis-latex-template
 # <edit thesis_contents.tex to your liking>
+# <add your references to reference_list.bib>
 $ ./make
-# <the ./make command can be pass a single argument denoting the filename, if
-different from thesis_contents.tex>
+# <the ./make command accepts an (optional) argument denoting the filename (if
+different from thesis_contents.tex)>
 ```
 
 ### on Windows
 > Install TexLive
 
-> Edit the thesis_contents.tex file
+> Edit the .tex and .bib files
 
 > Use pdflatex / bibtex to build the files
 
