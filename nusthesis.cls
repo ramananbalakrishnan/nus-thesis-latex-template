@@ -185,7 +185,7 @@ degree in any university previously. \\
 \end{center}
 \vspace*{-0.5cm}
 \@author \\
-14th August 2014
+\today
 \end{center}\newpage}} {}
 
 %Chapfont
