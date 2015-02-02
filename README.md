@@ -7,21 +7,19 @@ A LaTeX template following NUS specifications for Masters/ PhD theses.
 
 ### on \*nix
 ```bash
-$ wget https://raw.githubusercontent.com/ramananbalakrishnan/nus-thesis-latex-template/master/nus-thesis-latex-template.tar.gz
-$ tar xvzf nus-thesis-latex-template.tar.gz
-$ cd nus-thesis-latex-template
+wget https://raw.githubusercontent.com/ramananbalakrishnan/nus-thesis-latex-template/master/nus-thesis-latex-template.tar.gz
+tar xvzf nus-thesis-latex-template.tar.gz
+cd nus-thesis-latex-template
 # <edit thesis_contents.tex to your liking>
 # <add your references to reference_list.bib>
-$ ./make
-# <the ./make command accepts an (optional) argument denoting the filename (if
-different from thesis_contents.tex)>
+./make
+# <the ./make command accepts an (optional) argument denoting the filename (if different from thesis_contents.tex)>
 ```
 
 ### on Windows
 > Install TexLive
-
+> Download nus-thesis-latex-template.tar.gz and unzip to a folder
 > Edit the .tex and .bib files
-
 > Use pdflatex / bibtex to build the files
 
 Recommended setup: TexLive + Texworks
