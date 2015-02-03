@@ -73,6 +73,49 @@ Some more text here.
 \chapter{Figures, sub-figures and more}
 \label{chap:figures}
 
+A simple figure called \cref{fig:example_fig} is shown below.
+
+\begin{figure}[!htbp]
+\centering\includegraphics[width=0.5\textwidth]{fig}
+\caption{Captions are also possible for figures.}
+\label{fig:example_fig}
+\end{figure}
+
+\newpage
+
+More complicated layouts of multiple figures using \texttt{subfloat} are also
+possible as shown in \cref{fig:example_subfig}. Reference a subfigure directly
+as \cref{subfig:subfig_1}.
+
+\begin{figure}[!ht]
+    \subfloat[ \label{subfig:subfig_1}]{%
+     \includegraphics[width=0.3\textwidth]{small_fig}
+   }
+   \hfill
+   \subfloat[ \label{subfig:subfig_2}]{%
+     \includegraphics[width=0.3\textwidth]{small_fig}
+   }
+   \caption{A common caption is shown for both. Use (a) and (b) to refer to the
+   subfigures.}
+\label{fig:example_subfig}
+\end{figure}
+
+Finally, a full page of figures with a possible layout is shown in \cref{fig:full_page_fig}.
+
+\begin{figure}[!htbp]
+    \subfloat[]{ \includegraphics[width=0.4\textwidth]{small_fig} }
+   \hfill
+    \subfloat[]{ \includegraphics[width=0.4\textwidth]{small_fig} } \\
+    \subfloat[]{ \includegraphics[width=0.4\textwidth]{small_fig} }
+        \hfill
+    \subfloat[]{ \includegraphics[width=0.4\textwidth]{small_fig} } \\
+    \subfloat[]{ \includegraphics[width=0.4\textwidth]{small_fig} }
+   \hfill
+    \subfloat[]{ \includegraphics[width=0.4\textwidth]{small_fig} }\\
+\caption{A full page of figures!}
+\label{fig:full_page_fig}
+\end{figure}
+
 \chapter{Let's talk tables}
 \label{chap:tables}
 
