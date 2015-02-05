@@ -185,6 +185,24 @@ Radiation pattern & Cavity required for unidirectional radiation. & Cavity not r
 \chapter{Equations and code}
 \label{chap:equationsandcode}
 
+The \texttt{equation} environment is the answer to all your complex greek formatting requirements. 
+\begin{equation}
+\label{eq:sinuous}
+\phi = (-1)^p\alpha_p\sin{\left[\frac{180^\circ\log{\left(r/R_p\right)}}{\log{\tau_p}}\right]}, \quad R_{p+1} \le r \le R_{p}
+\end{equation}
+
+I prefer to use the simple \texttt{verbatim} environment for capturing my code segments.
+
+\begin{Verbatim}[frame=single]
+r_total = zeros(0,0);
+phi_total = zeros(0,0);
+for p=1:length(R)-1
+    r = linspace(R(p),R(p+1)+eps,10000);
+    phi = ((-1)^p) * alpha *(sin(pi*log(r/R(p))/log(tau)));
+    r_total = horzcat(r_total,r);
+    phi_total = horzcat(phi_total,phi);
+end
+\end{Verbatim}
 % --------------------------------------------------
 % End of chapters
 % --------------------------------------------------
