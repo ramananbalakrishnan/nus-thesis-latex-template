@@ -25,7 +25,7 @@ cd nus-thesis-latex-template
 Recommended setup: TexLive + Texworks
 
 ## Author
-Ramanan Balakrishnan (ramanan90@gmail.com)
+Ramanan Balakrishnan
 
 ## Acknowledgements
 This work is based on the
